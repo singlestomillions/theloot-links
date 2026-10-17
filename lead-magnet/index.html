@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Free AI Tools Database — LootLab</title>
+<meta name="description" content="A no-fluff list of free-tier AI tools a beginner can actually use today. Tested by @theloot.ai.">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: radial-gradient(ellipse at top, #14264a 0%, #0a1628 60%, #060d1a 100%);
+    color: #fff; min-height: 100vh;
+    display: flex; justify-content: center; padding: 40px 20px 60px;
+  }
+  .wrap { width: 100%; max-width: 720px; }
+  .brand { text-align: center; margin-bottom: 8px; font-size: 15px; letter-spacing: 1px; color: #9db2d6; }
+  .brand .gold { color: #f5b942; font-weight: 700; }
+  h1 { font-size: 34px; line-height: 1.15; text-align: center; margin-bottom: 10px; }
+  h1 .gold { color: #f5b942; }
+  .sub { text-align: center; color: #9db2d6; font-size: 16px; line-height: 1.5; margin-bottom: 28px; }
+  .capture {
+    background: rgba(255,255,255,.05);
+    border: 1px solid rgba(245,185,66,.45); border-radius: 16px;
+    padding: 22px; margin-bottom: 34px; text-align: center;
+  }
+  .capture h2 { font-size: 19px; margin-bottom: 6px; }
+  .capture p { color: #9db2d6; font-size: 14px; margin-bottom: 16px; line-height: 1.5; }
+  .capture form { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+  .capture input[type="email"] {
+    flex: 1 1 260px; padding: 14px 16px; border-radius: 12px;
+    border: 1px solid rgba(245,185,66,.45); background: rgba(10,22,40,.7);
+    color: #fff; font-size: 16px;
+  }
+  .capture input[type="email"]::placeholder { color: #5c6f8f; }
+  .capture button {
+    padding: 14px 22px; border: none; border-radius: 12px; cursor: pointer;
+    background: linear-gradient(135deg, #ffd76a, #f5b942); color: #0a1628;
+    font-weight: 700; font-size: 16px;
+    box-shadow: 0 4px 20px rgba(245,185,66,.25);
+    transition: transform .12s ease, box-shadow .12s ease;
+  }
+  .capture button:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(245,185,66,.4); }
+  .capture a.cta {
+    display: inline-block; padding: 14px 22px; border-radius: 12px; text-decoration: none;
+    background: linear-gradient(135deg, #ffd76a, #f5b942); color: #0a1628;
+    font-weight: 700; font-size: 16px;
+    box-shadow: 0 4px 20px rgba(245,185,66,.25);
+    transition: transform .12s ease, box-shadow .12s ease;
+  }
+  .capture a.cta:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(245,185,66,.4); }
+  .capture .fine { font-size: 12px; color: #5c6f8f; margin: 12px 0 0; }
+  .cat { font-size: 15px; font-weight: 700; letter-spacing: .6px; margin: 28px 0 12px; color: #f5b942; text-transform: uppercase; }
+  .tool {
+    background: rgba(255,255,255,.05);
+    border: 1px solid rgba(245,185,66,.25); border-radius: 14px;
+    padding: 18px 20px; margin-bottom: 12px;
+  }
+  .tool h3 { font-size: 18px; margin-bottom: 4px; }
+  .tool h3 a { color: #fff; text-decoration: none; }
+  .tool h3 a:hover { color: #ffd76a; }
+  .tool .for { color: #c9d6ea; font-size: 14px; line-height: 1.5; margin-bottom: 8px; }
+  .tier {
+    display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .04em;
+    border-radius: 999px; padding: 3px 10px;
+    background: rgba(245,185,66,.15); color: #ffd76a; border: 1px solid rgba(245,185,66,.45);
+  }
+  .tier.terms { background: rgba(255,255,255,.06); color: #9db2d6; border-color: rgba(157,178,214,.35); font-weight: 500; }
+  .disc { color: #5c6f8f; font-size: 12px; line-height: 1.6; margin-top: 26px; }
+  .foot { margin-top: 20px; text-align: center; color: #5c6f8f; font-size: 12px; }
+  .foot a { color: #9db2d6; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <p class="brand">LOOT<span class="gold">LAB</span> · @theloot.ai</p>
+    <h1>The Free AI Tools <span class="gold">Database</span></h1>
+    <p class="sub">Every tool below has a real free tier you can use today — no credit card tricks, no fake "free" labels. I test these on @theloot.ai so you don't waste time on the junk.</p>
+
+    <!-- ============================================================
+         EMAIL CAPTURE — ROUTE B (live)
+         Systeme.io does not support a clean external form POST, so this
+         page links out to the hosted opt-in page of the
+         "LootLab — Free AI Tools Database (Lead Magnet)" funnel
+         (ID 7713381). Its thank-you page delivers the PDF.
+         ============================================================ -->
+    <div class="capture" id="get-list">
+      <h2>📩 Get this list as a PDF + new tools as I test them</h2>
+      <p>The full database below is free to read right here. Drop your email and I'll send the PDF version, plus the new free tools I test each week. No spam, no selling your address.</p>
+      <a class="cta" href="https://a030-singlestomillions.systeme.io/25d50946">Send me the list</a>
+      <p class="fine">Free forever. Unsubscribe anytime.</p>
+    </div>
+
+    <p class="cat">💬 Chat &amp; Research</p>
+
+    <div class="tool">
+      <h3><a href="https://chatgpt.com" target="_blank" rel="noopener">ChatGPT</a></h3>
+      <p class="for">The all-rounder: writing, brainstorming, scripts, captions, code help. Start here if you start nowhere else.</p>
+      <span class="tier">FREE TIER</span> <span class="tier terms">Free plan with usage limits on the newest models; no card required</span>
+    </div>
+
+    <div class="tool">
+      <h3><a href="https://www.perplexity.ai" target="_blank" rel="noopener">Perplexity</a></h3>
+      <p class="for">AI search that answers with sources — research, fact-checks, and market homework in minutes.</p>
+      <span class="tier">FREE TIER</span> <span class="tier terms">Unlimited basic searches free; a limited number of Pro searches per day</span>
+    </div>
+
+    <div class="tool">
+      <h3><a href="https://notebooklm.google.com" target="_blank" rel="noopener">NotebookLM</a></h3>
+      <p class="for">Drop in your own documents, links, or videos and chat with them — summaries, study guides, even audio overviews.</p>
+      <span class="tier">FREE</span> <span class="tier terms">Free from Google with per-notebook source and notebook-count limits</span>
+    </div>
+
+    <p class="cat">🎨 Design &amp; Images</p>
+
+    <div class="tool">
+      <h3><a href="https://www.canva.com" target="_blank" rel="noopener">Canva</a></h3>
+      <p class="for">Posts, thumbnails, logos, presentations — drag-and-drop design with AI features built in.</p>
+      <span class="tier">FREE PLAN</span> <span class="tier terms">Generous free plan; some templates, elements, and AI features are Pro-only</span>
+    </div>
+
+    <div class="tool">
+      <h3><a href="https://leonardo.ai" target="_blank" rel="noopener">Leonardo</a></h3>
+      <p class="for">AI image generation with real control — product shots, thumbnails, artwork, and brand visuals.</p>
+      <span class="tier">FREE TIER</span> <span class="tier terms">Free plan with a daily token allowance that refills; paid plans raise the cap</span>
+    </div>
+
+    <div class="tool">
+      <h3><a href="https://gamma.app" target="_blank" rel="noopener">Gamma</a></h3>
+      <p class="for">Type an idea, get a finished presentation, doc, or simple webpage — design handled for you.</p>
+      <span class="tier">FREE TIER</span> <span class="tier terms">Free plan starts you with AI credits; creating/editing costs credits, viewing is free</span>
+    </div>
+
+    <p class="cat">🎬 Video &amp; Audio</p>
+
+    <div class="tool">
+      <h3><a href="https://www.capcut.com" target="_blank" rel="noopener">CapCut</a></h3>
+      <p class="for">The free video editor behind half the Reels you watch — captions, effects, templates, phone or desktop.</p>
+      <span class="tier">FREE</span> <span class="tier terms">Core editor is free; some effects, cloud storage, and premium features are paid</span>
+    </div>
+
+    <div class="tool">
+      <h3><a href="https://www.descript.com" target="_blank" rel="noopener">Descript</a></h3>
+      <p class="for">Edit video by editing the transcript — delete a word, cut the clip. Killer for talking-head content.</p>
+      <span class="tier">FREE PLAN</span> <span class="tier terms">Free plan with a small monthly allowance of transcription/media hours</span>
+    </div>
+
+    <div class="tool">
+      <h3><a href="https://suno.com" target="_blank" rel="noopener">Suno</a></h3>
+      <p class="for">Full songs from a text prompt — intros, background tracks, and original audio for your content.</p>
+      <span class="tier">FREE TIER</span> <span class="tier terms">Free plan with daily song credits; free-tier songs are non-commercial use</span>
+    </div>
+
+    <div class="tool">
+      <h3><a href="https://fliki.ai?via=singlestomillions" target="_blank" rel="noopener">Fliki</a> *</h3>
+      <p class="for">Turn a script into a full faceless video with an AI voiceover — the tool behind our Saturday test slot.</p>
+      <span class="tier">FREE CREDITS</span> <span class="tier terms">Free credits to test it; free-tier exports carry a watermark and 720p cap</span>
+    </div>
+
+    <div class="tool">
+      <h3><a href="https://tolt.link/singlestomillions" target="_blank" rel="noopener">OpusClip</a> *</h3>
+      <p class="for">Feed it one long video, get captioned short clips ranked for viral potential.</p>
+      <span class="tier">FREE TRIAL CREDITS</span> <span class="tier terms">Trial processing credits on signup; ongoing use is a paid plan</span>
+    </div>
+
+    <p class="cat">🚀 Build &amp; Grow</p>
+
+    <div class="tool">
+      <h3><a href="https://systeme.io/?sa=sa02837833040ed66c83ca3bee536f64b830150e2c" target="_blank" rel="noopener">Systeme.io</a> *</h3>
+      <p class="for">Funnels, email list, and online courses in one place — the platform this very page's signup runs on.</p>
+      <span class="tier">FREE PLAN</span> <span class="tier terms">Real free plan (contacts, funnels, emails capped); no card required to start</span>
+    </div>
+
+    <p class="disc">* Partner link: I may earn a commission if you sign up — never any extra cost to you. Free-tier terms were checked against each tool's public offering when this page was built (October 2026) and can change; the tool's own site is the final word. This page is a starting list, not a guarantee of results — what you build with the tools is on you.</p>
+
+    <div class="capture">
+      <h2>Want the deep version?</h2>
+      <p>The free list gets you started. <strong style="color:#fff;">The AI Loot Vault</strong> is the full playbook: 100+ vetted tools organized by job, ready-to-paste prompts, and the workflows that chain them together — $49 founding presell, lifetime updates.</p>
+      <a href="https://buy.stripe.com/bJebJ02Pjg7r5DxgAzdfG08" style="display:inline-block;padding:14px 22px;border-radius:12px;background:linear-gradient(135deg,#ffd76a,#f5b942);color:#0a1628;font-weight:700;font-size:16px;text-decoration:none;">🗝️ Get The AI Loot Vault — $49</a>
+    </div>
+
+    <p class="foot">@theloot.ai · LootLab — free AI tools daily<br><a href="../index.html">← All LootLab links</a></p>
+  </div>
+
+</body>
+</html>
